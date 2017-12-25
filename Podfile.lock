@@ -1,0 +1,12 @@
+PODS:
+  - CTMediator (6)
+
+DEPENDENCIES:
+  - CTMediator
+
+SPEC CHECKSUMS:
+  CTMediator: 334b9eaab167dc41868106b380a2a99fddd26e48
+
+PODFILE CHECKSUM: a48077cca1a06f8b48d1c43baa5da108e8409dec
+
+COCOAPODS: 1.3.0.beta.1
