@@ -1,12 +1,52 @@
 PODS:
+  - BaseMediator (0.1.0):
+    - CTMediator
+  - BaseVc (0.1.0):
+    - TaskMediator
   - CTMediator (6)
+  - HomeTask (0.1.0):
+    - TaskMediator
+  - TaskMediator (0.1.0):
+    - CTMediator
 
 DEPENDENCIES:
+  - BaseMediator (from `https://github.com/ModuleCreation/BaseMediator.git`)
+  - BaseVc (from `https://github.com/ModuleCreation/BaseVc.git`)
   - CTMediator
+  - HomeTask (from `https://github.com/ModuleCreation/TaskHome.git`)
+  - TaskMediator (from `https://github.com/TPQuietBro/TaskMediator.git`)
+
+EXTERNAL SOURCES:
+  BaseMediator:
+    :git: https://github.com/ModuleCreation/BaseMediator.git
+  BaseVc:
+    :git: https://github.com/ModuleCreation/BaseVc.git
+  HomeTask:
+    :git: https://github.com/ModuleCreation/TaskHome.git
+  TaskMediator:
+    :git: https://github.com/TPQuietBro/TaskMediator.git
+
+CHECKOUT OPTIONS:
+  BaseMediator:
+    :commit: c1d03e18a81310520cc7a7837b6a9256ec2d83d3
+    :git: https://github.com/ModuleCreation/BaseMediator.git
+  BaseVc:
+    :commit: '041368b34dacbddbc6f6a5f3724f7af00f3d8edb'
+    :git: https://github.com/ModuleCreation/BaseVc.git
+  HomeTask:
+    :commit: ce213b6c5008f5097429682025ee349297e0e40c
+    :git: https://github.com/ModuleCreation/TaskHome.git
+  TaskMediator:
+    :commit: 1a1e93bc35724f6681e9db85574ca60153595bee
+    :git: https://github.com/TPQuietBro/TaskMediator.git
 
 SPEC CHECKSUMS:
+  BaseMediator: dd3c77273b4be15b4fb36f73b5da7dfd1e3436ae
+  BaseVc: ed439ca17629ebb5213c4f15d769d6aa9d28e167
   CTMediator: 334b9eaab167dc41868106b380a2a99fddd26e48
+  HomeTask: 31120200cce886a8956c89b112371d6bbe3a521f
+  TaskMediator: 18b3a58dcb7f79be85529d8c73298279e011a448
 
-PODFILE CHECKSUM: a48077cca1a06f8b48d1c43baa5da108e8409dec
+PODFILE CHECKSUM: f40dfb86c58a1b9b74653213964af9069f170434
 
 COCOAPODS: 1.3.0.beta.1

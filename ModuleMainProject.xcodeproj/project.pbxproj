@@ -14,15 +14,6 @@
 		D76EFCD81FF151090039EDC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D76EFCD71FF151090039EDC2 /* Assets.xcassets */; };
 		D76EFCDB1FF151090039EDC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D76EFCD91FF151090039EDC2 /* LaunchScreen.storyboard */; };
 		D76EFCDE1FF151090039EDC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D76EFCDD1FF151090039EDC2 /* main.m */; };
-		D76EFCEA1FF1538B0039EDC2 /* BaseTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D76EFCE91FF1538B0039EDC2 /* BaseTabBarViewController.m */; };
-		D76EFCED1FF153C70039EDC2 /* BaseNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = D76EFCEC1FF153C70039EDC2 /* BaseNavController.m */; };
-		D76EFCF01FF153DB0039EDC2 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D76EFCEF1FF153DB0039EDC2 /* DetailViewController.m */; };
-		D76EFCF31FF153E40039EDC2 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D76EFCF21FF153E40039EDC2 /* HomeViewController.m */; };
-		D76EFCF61FF153EC0039EDC2 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D76EFCF51FF153EC0039EDC2 /* ListViewController.m */; };
-		D76EFCF91FF154490039EDC2 /* Target_Base.m in Sources */ = {isa = PBXBuildFile; fileRef = D76EFCF81FF154490039EDC2 /* Target_Base.m */; };
-		D76EFD011FF156FA0039EDC2 /* CTMediator+Base.m in Sources */ = {isa = PBXBuildFile; fileRef = D76EFD001FF156F90039EDC2 /* CTMediator+Base.m */; };
-		D76EFD041FF157060039EDC2 /* CTMediator+Task.m in Sources */ = {isa = PBXBuildFile; fileRef = D76EFD031FF157060039EDC2 /* CTMediator+Task.m */; };
-		D76EFD071FF157490039EDC2 /* Target_Task.m in Sources */ = {isa = PBXBuildFile; fileRef = D76EFD061FF157490039EDC2 /* Target_Task.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,24 +29,6 @@
 		D76EFCDA1FF151090039EDC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D76EFCDC1FF151090039EDC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D76EFCDD1FF151090039EDC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D76EFCE81FF1538B0039EDC2 /* BaseTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTabBarViewController.h; sourceTree = "<group>"; };
-		D76EFCE91FF1538B0039EDC2 /* BaseTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarViewController.m; sourceTree = "<group>"; };
-		D76EFCEB1FF153C70039EDC2 /* BaseNavController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseNavController.h; sourceTree = "<group>"; };
-		D76EFCEC1FF153C70039EDC2 /* BaseNavController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNavController.m; sourceTree = "<group>"; };
-		D76EFCEE1FF153DB0039EDC2 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		D76EFCEF1FF153DB0039EDC2 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		D76EFCF11FF153E40039EDC2 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
-		D76EFCF21FF153E40039EDC2 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
-		D76EFCF41FF153EC0039EDC2 /* ListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
-		D76EFCF51FF153EC0039EDC2 /* ListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
-		D76EFCF71FF154490039EDC2 /* Target_Base.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_Base.h; sourceTree = "<group>"; };
-		D76EFCF81FF154490039EDC2 /* Target_Base.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_Base.m; sourceTree = "<group>"; };
-		D76EFCFF1FF156F90039EDC2 /* CTMediator+Base.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CTMediator+Base.h"; sourceTree = "<group>"; };
-		D76EFD001FF156F90039EDC2 /* CTMediator+Base.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+Base.m"; sourceTree = "<group>"; };
-		D76EFD021FF157060039EDC2 /* CTMediator+Task.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CTMediator+Task.h"; sourceTree = "<group>"; };
-		D76EFD031FF157060039EDC2 /* CTMediator+Task.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+Task.m"; sourceTree = "<group>"; };
-		D76EFD051FF157490039EDC2 /* Target_Task.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_Task.h; sourceTree = "<group>"; };
-		D76EFD061FF157490039EDC2 /* Target_Task.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_Task.m; sourceTree = "<group>"; };
 		F121CECF3C376EB20AEB25C7 /* Pods-ModuleMainProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModuleMainProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-ModuleMainProject/Pods-ModuleMainProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,12 +82,6 @@
 		D76EFCCD1FF151090039EDC2 /* ModuleMainProject */ = {
 			isa = PBXGroup;
 			children = (
-				D76EFCFE1FF156D90039EDC2 /* BaseMediator */,
-				D76EFCFD1FF156CB0039EDC2 /* TaskMediator */,
-				D76EFCE71FF153580039EDC2 /* BaseVc */,
-				D76EFCE51FF153580039EDC2 /* DetailVc */,
-				D76EFCE41FF153580039EDC2 /* HomeVc */,
-				D76EFCE61FF153580039EDC2 /* ListVc */,
 				D76EFCCE1FF151090039EDC2 /* AppDelegate.h */,
 				D76EFCCF1FF151090039EDC2 /* AppDelegate.m */,
 				D76EFCD11FF151090039EDC2 /* ViewController.h */,
@@ -126,66 +93,6 @@
 				D76EFCDD1FF151090039EDC2 /* main.m */,
 			);
 			path = ModuleMainProject;
-			sourceTree = "<group>";
-		};
-		D76EFCE41FF153580039EDC2 /* HomeVc */ = {
-			isa = PBXGroup;
-			children = (
-				D76EFCF11FF153E40039EDC2 /* HomeViewController.h */,
-				D76EFCF21FF153E40039EDC2 /* HomeViewController.m */,
-				D76EFD051FF157490039EDC2 /* Target_Task.h */,
-				D76EFD061FF157490039EDC2 /* Target_Task.m */,
-			);
-			path = HomeVc;
-			sourceTree = "<group>";
-		};
-		D76EFCE51FF153580039EDC2 /* DetailVc */ = {
-			isa = PBXGroup;
-			children = (
-				D76EFCEE1FF153DB0039EDC2 /* DetailViewController.h */,
-				D76EFCEF1FF153DB0039EDC2 /* DetailViewController.m */,
-			);
-			path = DetailVc;
-			sourceTree = "<group>";
-		};
-		D76EFCE61FF153580039EDC2 /* ListVc */ = {
-			isa = PBXGroup;
-			children = (
-				D76EFCF41FF153EC0039EDC2 /* ListViewController.h */,
-				D76EFCF51FF153EC0039EDC2 /* ListViewController.m */,
-			);
-			path = ListVc;
-			sourceTree = "<group>";
-		};
-		D76EFCE71FF153580039EDC2 /* BaseVc */ = {
-			isa = PBXGroup;
-			children = (
-				D76EFCE81FF1538B0039EDC2 /* BaseTabBarViewController.h */,
-				D76EFCE91FF1538B0039EDC2 /* BaseTabBarViewController.m */,
-				D76EFCEB1FF153C70039EDC2 /* BaseNavController.h */,
-				D76EFCEC1FF153C70039EDC2 /* BaseNavController.m */,
-				D76EFCF71FF154490039EDC2 /* Target_Base.h */,
-				D76EFCF81FF154490039EDC2 /* Target_Base.m */,
-			);
-			path = BaseVc;
-			sourceTree = "<group>";
-		};
-		D76EFCFD1FF156CB0039EDC2 /* TaskMediator */ = {
-			isa = PBXGroup;
-			children = (
-				D76EFD021FF157060039EDC2 /* CTMediator+Task.h */,
-				D76EFD031FF157060039EDC2 /* CTMediator+Task.m */,
-			);
-			path = TaskMediator;
-			sourceTree = "<group>";
-		};
-		D76EFCFE1FF156D90039EDC2 /* BaseMediator */ = {
-			isa = PBXGroup;
-			children = (
-				D76EFCFF1FF156F90039EDC2 /* CTMediator+Base.h */,
-				D76EFD001FF156F90039EDC2 /* CTMediator+Base.m */,
-			);
-			path = BaseMediator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,17 +218,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D76EFCD31FF151090039EDC2 /* ViewController.m in Sources */,
-				D76EFD071FF157490039EDC2 /* Target_Task.m in Sources */,
-				D76EFCED1FF153C70039EDC2 /* BaseNavController.m in Sources */,
-				D76EFCF61FF153EC0039EDC2 /* ListViewController.m in Sources */,
 				D76EFCDE1FF151090039EDC2 /* main.m in Sources */,
 				D76EFCD01FF151090039EDC2 /* AppDelegate.m in Sources */,
-				D76EFCEA1FF1538B0039EDC2 /* BaseTabBarViewController.m in Sources */,
-				D76EFD011FF156FA0039EDC2 /* CTMediator+Base.m in Sources */,
-				D76EFCF31FF153E40039EDC2 /* HomeViewController.m in Sources */,
-				D76EFD041FF157060039EDC2 /* CTMediator+Task.m in Sources */,
-				D76EFCF91FF154490039EDC2 /* Target_Base.m in Sources */,
-				D76EFCF01FF153DB0039EDC2 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
