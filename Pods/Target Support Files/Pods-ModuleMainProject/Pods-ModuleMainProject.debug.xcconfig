@@ -1,8 +1,8 @@
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/BaseMediator" "${PODS_ROOT}/Headers/Public/BaseVc" "${PODS_ROOT}/Headers/Public/CTMediator" "${PODS_ROOT}/Headers/Public/HomeTask" "${PODS_ROOT}/Headers/Public/TaskMediator"
-LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/BaseMediator" "$PODS_CONFIGURATION_BUILD_DIR/BaseVc" "$PODS_CONFIGURATION_BUILD_DIR/CTMediator" "$PODS_CONFIGURATION_BUILD_DIR/HomeTask" "$PODS_CONFIGURATION_BUILD_DIR/TaskMediator"
-OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/BaseMediator" -isystem "${PODS_ROOT}/Headers/Public/BaseVc" -isystem "${PODS_ROOT}/Headers/Public/CTMediator" -isystem "${PODS_ROOT}/Headers/Public/HomeTask" -isystem "${PODS_ROOT}/Headers/Public/TaskMediator"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"BaseMediator" -l"BaseVc" -l"CTMediator" -l"HomeTask" -l"TaskMediator"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/BaseMediator" "${PODS_ROOT}/Headers/Public/BaseVc" "${PODS_ROOT}/Headers/Public/CTMediator" "${PODS_ROOT}/Headers/Public/HomeTask" "${PODS_ROOT}/Headers/Public/PublicMarco" "${PODS_ROOT}/Headers/Public/PublicTool" "${PODS_ROOT}/Headers/Public/TaskMediator"
+LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/BaseMediator" "$PODS_CONFIGURATION_BUILD_DIR/BaseVc" "$PODS_CONFIGURATION_BUILD_DIR/CTMediator" "$PODS_CONFIGURATION_BUILD_DIR/HomeTask" "$PODS_CONFIGURATION_BUILD_DIR/PublicTool" "$PODS_CONFIGURATION_BUILD_DIR/TaskMediator"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/BaseMediator" -isystem "${PODS_ROOT}/Headers/Public/BaseVc" -isystem "${PODS_ROOT}/Headers/Public/CTMediator" -isystem "${PODS_ROOT}/Headers/Public/HomeTask" -isystem "${PODS_ROOT}/Headers/Public/PublicMarco" -isystem "${PODS_ROOT}/Headers/Public/PublicTool" -isystem "${PODS_ROOT}/Headers/Public/TaskMediator"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"BaseMediator" -l"BaseVc" -l"CTMediator" -l"HomeTask" -l"PublicTool" -l"TaskMediator"
 PODS_BUILD_DIR = $BUILD_DIR
 PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.

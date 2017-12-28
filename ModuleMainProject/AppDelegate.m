@@ -9,6 +9,8 @@
 #import "AppDelegate.h"
 #import "CTMediator+Base.h"
 #import "CTMediator+Task.h"
+#import "TestMarcoHeader.h"
+#import <PublicTool/TestTool.h>
 
 @interface AppDelegate ()
 
@@ -24,6 +26,9 @@
     [tab addChildViewController:nav];
     self.window.rootViewController = tab;
     [self.window makeKeyAndVisible];
+    NSInteger width = ScreenWidth;
+    NSLog(@"来自宏文件的宽度=%zd",width);
+    [TestTool test];
     return YES;
 }
 

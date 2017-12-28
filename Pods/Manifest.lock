@@ -6,6 +6,8 @@ PODS:
   - CTMediator (6)
   - HomeTask (0.1.0):
     - TaskMediator
+  - PublicMarco (0.1.0)
+  - PublicTool (0.1.0)
   - TaskMediator (0.1.0):
     - CTMediator
 
@@ -14,6 +16,8 @@ DEPENDENCIES:
   - BaseVc (from `https://github.com/ModuleCreation/BaseVc.git`)
   - CTMediator
   - HomeTask (from `https://github.com/ModuleCreation/TaskHome.git`)
+  - PublicMarco (from `https://github.com/ModuleCreation/PublicMarco.git`)
+  - PublicTool (from `https://github.com/ModuleCreation/PublicTool.git`)
   - TaskMediator (from `https://github.com/TPQuietBro/TaskMediator.git`)
 
 EXTERNAL SOURCES:
@@ -23,6 +27,10 @@ EXTERNAL SOURCES:
     :git: https://github.com/ModuleCreation/BaseVc.git
   HomeTask:
     :git: https://github.com/ModuleCreation/TaskHome.git
+  PublicMarco:
+    :git: https://github.com/ModuleCreation/PublicMarco.git
+  PublicTool:
+    :git: https://github.com/ModuleCreation/PublicTool.git
   TaskMediator:
     :git: https://github.com/TPQuietBro/TaskMediator.git
 
@@ -36,6 +44,12 @@ CHECKOUT OPTIONS:
   HomeTask:
     :commit: ce213b6c5008f5097429682025ee349297e0e40c
     :git: https://github.com/ModuleCreation/TaskHome.git
+  PublicMarco:
+    :commit: e1a18df548b97b22ed75c05c5b6e1041012c9f61
+    :git: https://github.com/ModuleCreation/PublicMarco.git
+  PublicTool:
+    :commit: 78f92e5061c7991d7f10c4e14699df1441a1572e
+    :git: https://github.com/ModuleCreation/PublicTool.git
   TaskMediator:
     :commit: 1a1e93bc35724f6681e9db85574ca60153595bee
     :git: https://github.com/TPQuietBro/TaskMediator.git
@@ -45,8 +59,10 @@ SPEC CHECKSUMS:
   BaseVc: ed439ca17629ebb5213c4f15d769d6aa9d28e167
   CTMediator: 334b9eaab167dc41868106b380a2a99fddd26e48
   HomeTask: 31120200cce886a8956c89b112371d6bbe3a521f
+  PublicMarco: 84a4d54faa7acff2788d096a7cbc828cf5364707
+  PublicTool: b0e988d8d7e18a398de3a7bd68d825ea8c63852e
   TaskMediator: 18b3a58dcb7f79be85529d8c73298279e011a448
 
-PODFILE CHECKSUM: f40dfb86c58a1b9b74653213964af9069f170434
+PODFILE CHECKSUM: 3692306fd3f84cfc3eedcf4ff8b868aca117e72d
 
 COCOAPODS: 1.3.0.beta.1
